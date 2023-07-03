@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 const startServer = async () => {
   try {
-    await mongoose.connect(config.MONGODB_URI, {
+    await mongoose.connect('mongodb://127.0.0.1:27017/mestodb', {
       useNewUrlParser: true,
     });
     console.log('Подключено к MongoDB');
