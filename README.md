@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP: 158.160.112.132
+IP 158.160.112.132
 
 Frontend https://nataliorigin.nomoredomains.rocks
 
